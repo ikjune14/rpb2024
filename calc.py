@@ -13,5 +13,22 @@ def main():
 def add(a, b):
     return a + b
 
+
 def minus(a, b):
     return a - b
+
+
+def times(a, b):
+    return a * b
+
+
+def divide(x, y):
+    if y == 0:
+        print("Error: cannot divide by zero.")
+        return 0
+    else:
+        return x / y
+
+
+if __name__ == "__main__":
+    main()
